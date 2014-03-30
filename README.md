@@ -1,6 +1,6 @@
 # MAStockGraph
 
-`MAStockGraph` is a library that allows you to easily pull a broad range of Yahoo! Finance stock market data for a company and chart the price for varying time frames. 
+`MAStockGraph` is a library that allows you to easily pull a broad range of <a href="finance.yahoo.com">Yahoo! Finance</a> stock market data for a company and chart the price for varying time frames. 
 
 ![demo](screenshots/demo.png)
 
