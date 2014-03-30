@@ -107,7 +107,7 @@ Current version returns the following data set
 
 ## Customization
 
-`MAStockGraph` is very customizable. The `MAFinance.h` class handles all the Yahoo! Finance interactions and `MAStockGraph` handles all the charting. 
+`MAStockGraph` is very customizable. The `MAFinance` class handles all the Yahoo! Finance interactions and `MAStockGraph` handles all the charting. 
 
 ### Customizing Stock Graph
 
