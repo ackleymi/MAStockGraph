@@ -2,12 +2,18 @@
 //  ViewController.h
 //  MAStockGraph
 //
-//  Created by Michael Ackley on 3/23/14.
-//  Copyright (c) 2014 Michael Ackley. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
+#import "MAFinance.h"
+#import "MAStockGraph.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, StockGraphDelegate>
+
+- (IBAction)stockBtn:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *symInput;
+@property (strong, nonatomic) IBOutlet UITableView *stockTable;
+
 
 @end

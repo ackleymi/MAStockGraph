@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE46E9F218E393420071B884 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE46E9F118E393420071B884 /* Animation.m */; };
+		DE46E9F518E393550071B884 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE46E9F418E393550071B884 /* Circle.m */; };
+		DE46E9F818E393650071B884 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = DE46E9F718E393650071B884 /* Line.m */; };
 		DE6244C418DFC66100343133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6244C318DFC66100343133 /* Foundation.framework */; };
 		DE6244C618DFC66100343133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6244C518DFC66100343133 /* CoreGraphics.framework */; };
 		DE6244C818DFC66100343133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6244C718DFC66100343133 /* UIKit.framework */; };
@@ -21,6 +24,8 @@
 		DE6244E518DFC66100343133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6244C718DFC66100343133 /* UIKit.framework */; };
 		DE6244ED18DFC66100343133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6244EB18DFC66100343133 /* InfoPlist.strings */; };
 		DE6244EF18DFC66100343133 /* MAStockGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6244EE18DFC66100343133 /* MAStockGraphTests.m */; };
+		DE62450A18DFE93400343133 /* MAFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = DE62450918DFE93400343133 /* MAFinance.m */; };
+		DEF38BE018E1D69C00D3D4E9 /* MAStockGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF38BDF18E1D69C00D3D4E9 /* MAStockGraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE46E9F018E393420071B884 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		DE46E9F118E393420071B884 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		DE46E9F318E393550071B884 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		DE46E9F418E393550071B884 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		DE46E9F618E393650071B884 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		DE46E9F718E393650071B884 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		DE6244C018DFC66100343133 /* MAStockGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAStockGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6244C318DFC66100343133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE6244C518DFC66100343133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,10 @@
 		DE6244EA18DFC66100343133 /* MAStockGraphTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAStockGraphTests-Info.plist"; sourceTree = "<group>"; };
 		DE6244EC18DFC66100343133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE6244EE18DFC66100343133 /* MAStockGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAStockGraphTests.m; sourceTree = "<group>"; };
+		DE62450818DFE93400343133 /* MAFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFinance.h; sourceTree = "<group>"; };
+		DE62450918DFE93400343133 /* MAFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFinance.m; sourceTree = "<group>"; };
+		DEF38BDE18E1D69C00D3D4E9 /* MAStockGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAStockGraph.h; sourceTree = SOURCE_ROOT; };
+		DEF38BDF18E1D69C00D3D4E9 /* MAStockGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAStockGraph.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE46E9F918E3937E0071B884 /* MAStockGraph */ = {
+			isa = PBXGroup;
+			children = (
+				DE62450818DFE93400343133 /* MAFinance.h */,
+				DE62450918DFE93400343133 /* MAFinance.m */,
+				DEF38BDE18E1D69C00D3D4E9 /* MAStockGraph.h */,
+				DEF38BDF18E1D69C00D3D4E9 /* MAStockGraph.m */,
+				DE46E9F618E393650071B884 /* Line.h */,
+				DE46E9F718E393650071B884 /* Line.m */,
+				DE46E9F318E393550071B884 /* Circle.h */,
+				DE46E9F418E393550071B884 /* Circle.m */,
+				DE46E9F018E393420071B884 /* Animation.h */,
+				DE46E9F118E393420071B884 /* Animation.m */,
+			);
+			name = MAStockGraph;
+			sourceTree = "<group>";
+		};
 		DE6244B718DFC66100343133 = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +146,10 @@
 			children = (
 				DE6244D218DFC66100343133 /* AppDelegate.h */,
 				DE6244D318DFC66100343133 /* AppDelegate.m */,
-				DE6244D518DFC66100343133 /* Main.storyboard */,
+				DE46E9F918E3937E0071B884 /* MAStockGraph */,
 				DE6244D818DFC66100343133 /* ViewController.h */,
 				DE6244D918DFC66100343133 /* ViewController.m */,
+				DE6244D518DFC66100343133 /* Main.storyboard */,
 				DE6244DB18DFC66100343133 /* Images.xcassets */,
 				DE6244CA18DFC66100343133 /* Supporting Files */,
 			);
@@ -250,6 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6244DA18DFC66100343133 /* ViewController.m in Sources */,
+				DE46E9F818E393650071B884 /* Line.m in Sources */,
+				DE46E9F518E393550071B884 /* Circle.m in Sources */,
+				DEF38BE018E1D69C00D3D4E9 /* MAStockGraph.m in Sources */,
+				DE46E9F218E393420071B884 /* Animation.m in Sources */,
+				DE62450A18DFE93400343133 /* MAFinance.m in Sources */,
 				DE6244D418DFC66100343133 /* AppDelegate.m in Sources */,
 				DE6244D018DFC66100343133 /* main.m in Sources */,
 			);
@@ -460,6 +498,7 @@
 				DE6244F418DFC66100343133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE6244F518DFC66100343133 /* Build configuration list for PBXNativeTarget "MAStockGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +507,7 @@
 				DE6244F718DFC66100343133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
